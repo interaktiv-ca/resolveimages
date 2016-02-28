@@ -1,0 +1,19 @@
+<div class="container-fluid no-padding">
+
+    <div class="row">
+        <div class="col-sm-12">
+            <img class="poster" src="{{banner}}" />
+        </div>
+        <div class="col-sm-6"></div>
+    </div>
+</div>
+<div class="row">
+    <!--
+      <div class="col-sm-2" style="background: url({{ obj.Poster }}) no-repeat left center; background-size: cover; height: 350px;" ng-repeat="obj in albums">
+    -->
+    <div class="col-xs-2 no-padding row-border-top row-border-bottom" ng-repeat="obj in filmsList">
+        <img class="poster" src="{{ obj.Poster }}" />
+
+    </div>
+</div>
+</div>
